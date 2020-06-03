@@ -13,6 +13,10 @@
   },
   "homepage": "https://github.com/Acaisoft/angular-azure-maps#readme",
   "scripts": {
+    "build:azure-map": "ng build azcure-map",
+    "deploy": "npm version patch && npm run deploy:all",
+    "deploy:all": "npm run deploy:azure-map",
+    "deploy:azure-map": "npm version patch --prefix projects/azure-map && npm run build:azure-map && npm publish ./dist/azure-map --access public",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
