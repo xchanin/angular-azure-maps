@@ -1,0 +1,8 @@
+{
+	"name": "@fathym-it/angular-azure-maps-angular-azure-maps",
+	"version": "0.0.35",
+	"peerDependencies": {
+		"@angular/common": "6.1.7",
+		"@angular/core": "6.1.7"
+	}
+}
