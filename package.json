@@ -1,6 +1,6 @@
 {
   "name": "@fathym-it/angular-azure-maps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Azure Maps Angular wrapper",
   "main": "index.js",
   "scripts": {
