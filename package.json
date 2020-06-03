@@ -3,15 +3,6 @@
   "version": "0.0.1",
   "description": "Azure Maps Angular wrapper",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Acaisoft/angular-azure-maps.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Acaisoft/angular-azure-maps/issues"
-  },
-  "homepage": "https://github.com/Acaisoft/angular-azure-maps#readme",
   "scripts": {
     "build:azure-map": "ng build azure-map",
     "deploy": "npm version patch && npm run deploy:all",
