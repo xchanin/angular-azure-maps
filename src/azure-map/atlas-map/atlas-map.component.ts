@@ -22,7 +22,7 @@ import {LoadMapService} from '../utils/load-map.service';
 @Component({
   selector: 'am-map',
   templateUrl: './atlas-map.component.html',
-  styleUrls: ['./atlas-map.component.css']
+  styleUrls: ['./atlas-map.component.scss']
 })
 export class AtlasMapComponent implements OnInit, AfterContentInit, AfterViewInit {
   @Input() initialConfig: any;
